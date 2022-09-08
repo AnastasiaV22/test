@@ -1,0 +1,12 @@
+//основные поля такой таблицы
+
+create table CategoryOfPfroducts(
+    ConnectionNumber Number(6) PRIMARY KEY,
+    C_Id Number(6),
+    P_id Number(6)
+);
+
+//Запрос
+
+SELECT *
+    FROM CategoryOfPfroducts;
